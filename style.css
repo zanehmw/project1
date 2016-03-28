@@ -1,0 +1,47 @@
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0px auto;
+  text-align: center;
+  width: 700px;
+  background-color: lightblue;
+}
+/*.header {
+  margin: 50px 0px;
+}*/
+
+
+h1 {
+  color: rebeccapurple;
+  font-family: 'copperplate';
+  font-size: 50px;
+}
+
+.stage {
+  background-color: #6C9A74;
+  border: 1px solid #295A33;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  height: 400px;
+  line-height: 400px;
+}
+
+.card {
+  background-color: #E3E3E3;
+  border: 1px solid #676767;
+  border-radius: 15px;
+
+  /*margin: 5px;*/
+  padding: 25px 0px;
+  height: 300px;
+  line-height: 300px;
+}
+
+.text {
+  background-color: #F52F4F;
+  color: #FFFFFF;
+  width: 300px;
+  margin: 0px auto;
+}

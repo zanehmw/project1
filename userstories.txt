@@ -1,0 +1,8 @@
+bronze
+allow users to learn korean easily through Flashcards
+allow user to see both sides of the card quickly using a key on the keyboard
+user can know whether or not their answer was correct
+they can see which answers they got wrong and can see them until they finally get it right
+
+silver
+set a timer to track user progress
