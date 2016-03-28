@@ -49,3 +49,14 @@ function nextCard () {
   currentCard  = deck[current]
   cardDisplay.innerHTML = currentCard.eWord
 }
+
+//creating a new event listener for the previous card button
+
+var previousButton = document.querySelector("#previousButton")
+previousButton.addEventListener("click", previousCard );
+
+function previousCard () {
+  current = current - 1
+  currentCard  = deck[current]
+  cardDisplay.innerHTML = currentCard.eWord
+}
