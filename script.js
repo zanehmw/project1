@@ -1,3 +1,5 @@
+
+
 // trying to make a deck of cards
 var deck = [
   { cardPosition: "1",
@@ -25,13 +27,16 @@ var deck = [
 var cardDisplay = document.querySelector("#flash_card")
 
 
-
-cardDisplay.innerHTML = deck[0].eWord
+var currentCard = deck[0]
+cardDisplay.innerHTML = currentCard.eWord
 //this function shows english word if korean word is displayed and vice versa
 function flipCard() {
-  if (cardDisplay.innerHTML = deck[0].eWord) {
-    cardDisplay.innerHTML = deck[0].kWord
+
+  if (cardDisplay.innerHTML == currentCard.eWord) {
+    cardDisplay.innerHTML = currentCard.kWord
+  }
+  else {
+    cardDisplay.innerHTML = currentCard.eWord
   }
 };
-
 cardDisplay.addEventListener("click", flipCard);
