@@ -6,8 +6,11 @@ var correctButton = document.querySelector("#correctButton")
 var previousButton = document.querySelector("#previousButton")
 var nextButton = document.querySelector("#nextButton")
 var incorrectButton = document.querySelector("#incorrectButton")
+var userPoints = 0
+var displayScore = document.querySelector("#scoreplace")
 
 cardDisplay.innerHTML = currentCard.eWord
+displayScore.innerHTML = "Score: " + userPoints
 
 cardDisplay.addEventListener( "click", flipCard );
 nextButton.addEventListener( "click", nextCard );
@@ -51,5 +54,7 @@ function moveCorrect() {
   if (currentCard.correct = "true") {
     correctCards.push(currentCard);
     deck.splice(current, 1);
+    userPoints = userPoints + 1;
+    displayScore.innerHTML = "Score: " + userPoints
   }
 };

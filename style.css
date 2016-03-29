@@ -24,7 +24,7 @@ h1 {
 }
 
 .card {
-  background-color: #E3E3E3;
+  background-color: white;
   border: 1px solid #676767;
   border-radius: 15px;
   padding: 25px 0px;
@@ -32,9 +32,23 @@ h1 {
   line-height: 300px;
 }
 
-.text {
-  background-color: #F52F4F;
-  color: #FFFFFF;
-  width: 300px;
-  margin: 0px auto;
+.board {
+  background-color: orange;
+  border: 1px solid #295A33;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+}
+
+.scoreplace {
+  background-color: white;
+  border: 1px solid #676767;
+  border-radius: 15px;
+  padding: 25px 0px;
+  height: 100px;
+  line-height: 100px;  
 }
