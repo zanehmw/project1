@@ -6,3 +6,4 @@ they can see which answers they got wrong and can see them until they finally ge
 
 silver
 set a timer to track user progress
+scoreboard

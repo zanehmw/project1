@@ -1,28 +1,32 @@
 // trying to make a deck of cards
 var deck = [
   {
-    // cardPosition: "1",
     eWord: "Hello",
     kWord: "안녕하세요",
-    // answered: false,
-    correct: false,
+    correct: "false",
   },
 
   {
-    // cardPosition: "2",
     eWord: "excited",
     kWord: "신났다",
-    // answered: false,
-    correct: false,
+    correct: "false",
   },
 
   {
-    // cardPosition: "3",
     eWord: "What is your name?",
     kWord: "이름이 뭐예요?",
-    // answered: false,
-    correct: false,
+    correct: "false",
   },
+  {
+    eWord: "poop",
+    kWord: "똥",
+    correct: "false",
+  },
+  {
+    eWord: "That man is good-looking",
+    kWord: "그남자가 잘 생겼다",
+    correct: "false",
+  }
 ];
 
 var cardDisplay = document.querySelector("#flash_card")
@@ -38,11 +42,11 @@ function flipCard() {
     cardDisplay.innerHTML = currentCard.eWord
   }
 };
-cardDisplay.addEventListener("click", flipCard);
+cardDisplay.addEventListener( "click", flipCard );
 
 //creating a new event listener and function to change the card current card using the next card button
 var nextButton = document.querySelector("#nextButton")
-nextButton.addEventListener("click", nextCard );
+nextButton.addEventListener( "click", nextCard );
 
 function nextCard () {
   current = current + 1
@@ -53,10 +57,39 @@ function nextCard () {
 //creating a new event listener for the previous card button
 
 var previousButton = document.querySelector("#previousButton")
-previousButton.addEventListener("click", previousCard );
+previousButton.addEventListener( "click", previousCard );
 
 function previousCard () {
   current = current - 1
   currentCard  = deck[current]
   cardDisplay.innerHTML = currentCard.eWord
+}
+
+//creating an event listener for the correct and incorrect buttons
+var correctCards= []
+
+var correctButton = document.querySelector("#correctButton")
+correctButton.addEventListener( "click", selectCorrect );
+
+function selectCorrect () {
+  console.log("poop")
+  currentCard.correct = "true";
+  moveCorrect()
+};
+
+var incorrectButton = document.querySelector("#incorrectButton")
+incorrectButton.addEventListener( "click", selectIncorrect );
+
+function selectIncorrect () {
+  console.log("poop alot")
+
+};
+
+// attempting to push correct cards to a different array in the function below
+
+function moveCorrect() {
+  if (currentCard.correct = "true") {
+    correctCards.push(currentCard);
+    deck.splice(current, 1);
+  }
 }
