@@ -1,5 +1,12 @@
 # psuedocode
 
+find a way to loop through cards
+create more flashcards
+
+use the keyboard flip the card
+next card and previous card buttons
+event listeners for both cards
+
 <!-- Pre-load your app with some data- (collection)
   objects within an array
     properties each card will have
@@ -17,21 +24,16 @@ let the user flip through them quickly (back or front)
 
     event listener- something hidden and then shows?(google) -->
 
-create more flashcards
 
-use the keyboard flip the card
-  next card and previous card buttons
-    event listeners for both cards
-
-correct and incorrect button that the user can click to identify whether they memorized it or not
+<!-- correct and incorrect button that the user can click to identify whether they memorized it or not
   Track which cards were incorrect
   all incorrect cards are thrown into a collection database
     next card: chooses from unanswered cards database(?)
-    previous card: goes to the previous card number- function
+    previous card: goes to the previous card number- function -->
 
-
+<!--
 some way to keep track of how many points the user has
-  scoreboard?
+  scoreboard? -->
 
 
 <!-- re-display them until the user gets them right!
