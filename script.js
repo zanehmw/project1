@@ -37,7 +37,7 @@ function nextCard () {
 };
 
 function previousCard () {
-  if(current == 0) {
+  if (current == 0) {
     current = deck.length - 1
   }
   else {
@@ -51,18 +51,21 @@ function selectCorrect () {
   console.log("poop")
   currentCard.correct = "true";
   moveCorrect()
-  nextCard()
+  currentCard  = deck[current]
+  cardDisplay.innerHTML = currentCard.eWord
 };
 
 function selectIncorrect () {
   console.log("poop alot")
+  userPoints = userPoints - 5;
+  displayScore.innerHTML = "Score: " + userPoints
 };
 
 function moveCorrect() {
   if (currentCard.correct = "true") {
     correctCards.push(currentCard);
     deck.splice(current, 1);
-    userPoints = userPoints + 1;
+    userPoints = userPoints + 10;
     displayScore.innerHTML = "Score: " + userPoints
   }
 };
