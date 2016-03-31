@@ -62,3 +62,6 @@ var sdeck = [
     correct: "false",
   }
 ];
+
+
+// I like the fact that you split this array of objects into it's own script file! Neatly refactored.
