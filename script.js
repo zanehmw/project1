@@ -17,6 +17,7 @@ nextButton.addEventListener( "click", nextCard );
 previousButton.addEventListener( "click", previousCard );
 correctButton.addEventListener( "click", selectCorrect );
 incorrectButton.addEventListener( "click", selectIncorrect );
+// Very semantic!!
 
 function flipCard() {
   if (cardDisplay.innerHTML == currentCard.eWord) {
@@ -54,6 +55,7 @@ function selectCorrect () {
   currentCard  = deck[current]
   cardDisplay.innerHTML = currentCard.eWord
 };
+// Why poop though?? LOL
 
 function selectIncorrect () {
   console.log("poop alot")
@@ -69,6 +71,7 @@ function moveCorrect() {
     displayScore.innerHTML = "Score: " + userPoints
   }
 };
+// Very interesting use of the selector "splice" - excellent!!! Dynamic!!!!!!! GROUND BREAKING!!!!!!!
 
 var spanishButton = document.querySelector("#spanishButton")
 spanishButton.addEventListener("click", switchSpanish );
