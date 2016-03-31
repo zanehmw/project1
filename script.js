@@ -37,7 +37,12 @@ function nextCard () {
 };
 
 function previousCard () {
+  if(current == 0) {
+    current = deck.length - 1
+  }
+  else {
   current = current - 1
+  }
   currentCard  = deck[current]
   cardDisplay.innerHTML = currentCard.eWord
 };
