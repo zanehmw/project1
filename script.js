@@ -61,3 +61,10 @@ function moveCorrect() {
     displayScore.innerHTML = "Score: " + userPoints
   }
 };
+
+var spanishButton = document.querySelector("#spanishButton")
+spanishButton.addEventListener("click", switchSpanish );
+function switchSpanish() {
+  var currentSpanCard = sdeck[current]
+  cardDisplay.innerHTML = currentSpanCard.sWord
+};

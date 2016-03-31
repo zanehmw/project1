@@ -34,3 +34,36 @@ var deck = [
     correct: "false",
   }
 ];
+
+
+var sdeck = [
+  {
+    eWord: "Hello",
+    sWord: "hola",
+    correct: "false",
+  },
+
+  {
+    eWord: "excited",
+    sWord: "emocionado",
+    correct: "false",
+  },
+
+  {
+    eWord: "What is your name?",
+    sWord: "Como te llamas?",
+    correct: "false",
+  },
+
+  {
+    eWord: "poop",
+    sWord: "mierda",
+    correct: "false",
+  },
+
+  {
+    eWord: "That man is good-looking",
+    sWord: "El hombre es guapo",
+    correct: "false",
+  }
+];
