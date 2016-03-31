@@ -1,7 +1,14 @@
-# psuedocode
+Explanations of the technologies used: HTML5, CSS, Javascript
+My approach taken: below is my pseudocode I used to create these flashcards. The commented
+  out sections have already been installed
+Installation instructions: I don't know what this means(?)
+Unsolved problems: I did not get around to using the keyboard to flip cards or making a reset button to refresh the page.
 
-find a way to loop through cards
-create more flashcards
+
+# pseudocode
+
+<!-- find a way to loop through cards
+create more flashcards -->
 
 use the keyboard flip the card
 next card and previous card buttons

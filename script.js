@@ -61,7 +61,7 @@ function selectIncorrect () {
   displayScore.innerHTML = "Score: " + userPoints
 };
 
-function moveCorrect() {
+function moveCorrect () {
   if (currentCard.correct = "true") {
     correctCards.push(currentCard);
     deck.splice(current, 1);
