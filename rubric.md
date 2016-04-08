@@ -12,7 +12,7 @@ Your initial user stories are pretty good. They could be a little more specific 
   > Did you deliver a project that met all the technical requirements? Given what the class has covered so far, did you build something that was reasonably complex?
 
 **Performing -**
-You did a
+You did a great job achieving the technical requirements of the project and your bronze user stories. It would have been awesome if you had tried to add some more features or try some of the bonus challenges.
 
 #### Code Quality:
 
