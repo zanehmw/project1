@@ -1,19 +1,37 @@
+
 body {
   font-family: Verdana, sans-serif;
   margin: 0px auto;
   text-align: center;
-  background-color: lightblue;
+  background-color: #FF0080;
+  max-width: 900px;
 }
 
-h1 {
-  color: purple;
-  font-family: 'copperplate';
+h1, h2 {
+  text-align: center;
+  color: white;
+  font-family: 'Cormorant Unicase', serif;
+}
+h1{
   font-size: 50px;
 }
+h2 {
+  font-size: 40px;
+}
 
+button{
+  padding: 10px;
+  border-radius: 4px;
+  background-color: pink;
+  border: lightblue;
+}
+
+#incorrectButton, #correctButton{
+  height: 100px;
+  width: 100px;
+}
 .stage {
-  background-color: #6C9A74;
-  border: 1px solid #295A33;
+  background-color: #4ddbff;
   border-radius: 15px;
   display: inline-block;
   margin: 10px;
@@ -33,8 +51,7 @@ h1 {
 }
 
 .board {
-  background-color: orange;
-  border: 1px solid #295A33;
+  background-color: #4ddbff;
   border-radius: 15px;
   display: inline-block;
   margin: 10px;
@@ -46,9 +63,11 @@ h1 {
 
 .scoreplace {
   background-color: white;
-  border: 1px solid #676767;
   border-radius: 15px;
   padding: 25px 0px;
   height: 100px;
   line-height: 100px;
+}
+.buttons{
+
 }
