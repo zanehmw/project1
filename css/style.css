@@ -7,12 +7,18 @@ body {
   max-width: 900px;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
   color: white;
-  font-family: 'copperplate';
+  font-family: 'Cormorant Unicase', serif;
+}
+h1{
   font-size: 50px;
 }
+h2 {
+  font-size: 40px;
+}
+
 button{
   padding: 10px;
   border-radius: 4px;
